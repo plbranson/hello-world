@@ -1,0 +1,36 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Hello World!",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plbranson/hello-world.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "dotenv",
+    "express",
+    "nodemon",
+    "javascript"
+  ],
+  "author": "Patrick L. Branson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/plbranson/hello-world/issues"
+  },
+  "homepage": "https://github.com/plbranson/hello-world#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
